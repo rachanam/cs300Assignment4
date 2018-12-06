@@ -4,6 +4,8 @@
  * Product.h: Class to hold information about a product's upc code and description
  * */
 
+#ifndef _PRODUCT_
+#define _PRODUCT_
 #include <string>
 using namespace std;
 
@@ -43,3 +45,5 @@ class Product
         return upcCode == product.upcCode;
     }
 };
+
+#endif // _PRODUCT_
